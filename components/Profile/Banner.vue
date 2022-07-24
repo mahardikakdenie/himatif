@@ -1,11 +1,17 @@
 <template>
   <div
-    class="h-screen text-white bg-center bg-cover text-26px font-semibold"
+    class="h-screen text-white bg-center bg-cover text-26px flex justify-center font-semibold"
     style="background-image: url('/banner/Gallery.png')"
   >
-    <div class="flex justify-center">
-      <div class="grid grid-cols-2 gap-28">
-        <h1 class="self-center">Profile</h1>
+    <div class="container flex justify-center">
+      <div class="flex content-center border-2">
+        <div class="flex justify-center h-96 content-center">
+          <div class="flex content-center">
+            <div class="flex- content-center">
+              <h1 class="flex- content-center">HIMATIF</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
