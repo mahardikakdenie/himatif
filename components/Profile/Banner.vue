@@ -1,19 +1,11 @@
 <template>
   <div
-    class="h-screen text-white bg-center bg-cover text-26px flex justify-center font-semibold"
-    style="background-image: url('/banner/Gallery.png')"
+    class="h-1/2 py-80 text-white bg-center bg-cover text-26px flex justify-center items-center font-semibold"
+    style="background-image: url('/banner/tentang.png')"
   >
-    <div class="container flex justify-center">
-      <div class="flex content-center border-2">
-        <div class="flex justify-center h-96 content-center">
-          <div class="flex content-center">
-            <div class="flex- content-center">
-              <h1 class="flex- content-center">HIMATIF</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="w-full md:w-9/12 xl:w-8/12 flex justify-center">
+      <h1 class="text-6xl font-bold text-white">Tentang Himatif</h1>
+    </section>
   </div>
 </template>
 

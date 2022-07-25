@@ -1,6 +1,7 @@
 <template>
   <div>
     <ProfileBanner />
+    <ProfileAbout />
   </div>
 </template>
 
