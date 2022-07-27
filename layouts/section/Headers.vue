@@ -96,7 +96,7 @@ export default {
       { name: "Home", to: "/", current: true },
       { name: "Profile", to: "/profile", current: false },
       { name: "Gallery", to: "/gallery", current: false },
-      { name: "Contact Us", to: "/", current: false },
+      { name: "Contact Us", to: "/contactus", current: false },
     ],
   }),
 };

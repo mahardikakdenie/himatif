@@ -1,5 +1,5 @@
 <template>
-  <div class="p-20 text-17px text-black bg-red-900 text-center">
+  <div class="p-20 text-17px text-black bg-red-800 text-center">
     <!-- explore solution -->
 
     <!-- images -->
