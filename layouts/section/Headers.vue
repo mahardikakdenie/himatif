@@ -95,7 +95,7 @@ export default {
     navigation: [
       { name: "Home", to: "/", current: true },
       { name: "Profile", to: "/profile", current: false },
-      { name: "Gallery", to: "/", current: false },
+      { name: "Gallery", to: "/gallery", current: false },
       { name: "Contact Us", to: "/", current: false },
     ],
   }),

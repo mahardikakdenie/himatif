@@ -4,13 +4,19 @@
     style="background-image: url('/banner/tentang.png')"
   >
     <section class="w-full md:w-9/12 xl:w-8/12 flex justify-center">
-      <h1 class="text-6xl font-bold text-white">Tentang Himatif</h1>
+      <h1 class="text-6xl font-bold text-white">{{ text }}</h1>
     </section>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    text: {
+      type: String,
+      default: () => "Tentang Himatif",
+    },
+  },
   computed: {
     // banner() {
     //   return this.$store.state.customerStory;
