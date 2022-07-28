@@ -1,17 +1,19 @@
 <template>
-  <div class="w-full p-36 bg-red-800">
+  <div class="w-full p-12 lg:p-36 bg-red-800">
     <div class="grid grid-rows-1">
-      <div class="grid grid-cols-3">
-        <div>
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div class="">
           <span class="text-5xl text-center font-bold text-white border-b-2"
             >Visi</span
           >
-          <p class="my-2 subpixel-antialiased text-lg text-white p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            doloribus laborum eum voluptate consequuntur in obcaecati non
-            sapiente, voluptates vitae optio maxime dolorem culpa autem totam,
-            voluptatibus nesciunt, sequi illo.
-          </p>
+          <div
+            class="mt-5 w-72 lg:w-full text-justify subpixel-antialiased text-lg text-white"
+          >
+            Menjadikan HIMATIF sebagai himpunan mahahsiswa yang satu, kompak,
+            berkualitas, dan aktif serta berperan dalam membantu mahasiswa
+            Jurusan Teknik Informatika pada khususnya dan ARS University pada
+            umumnya baik dalam bidang akademik maupun non-akedemik
+          </div>
         </div>
         <div class="flex justify-center p-32 items-center">
           <div
@@ -23,40 +25,46 @@
           <span class="text-5xl text-center font-bold text-white border-b-2"
             >Misi</span
           >
-          <p class="my-2 subpixel-antialiased text-lg text-white p-2">
+          <div
+            class="mt-5 w-72 lg:w-full text-justify subpixel-antialiased text-lg text-white"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
             doloribus laborum eum voluptate consequuntur in obcaecati non
             sapiente, voluptates vitae optio maxime dolorem culpa autem totam,
             voluptatibus nesciunt, sequi illo.
-          </p>
+          </div>
         </div>
       </div>
     </div>
     <!--  -->
     <div class="grid grid-row-1">
-      <div class="grid grid-cols-3">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
         <div>
           <span class="text-5xl text-center font-bold text-white border-b-2"
             >Sejarah</span
           >
-          <p class="my-2 subpixel-antialiased text-lg text-white p-2">
+          <div
+            class="mt-5 w-72 lg:w-full text-justify subpixel-antialiased text-lg text-white"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
             doloribus laborum eum voluptate consequuntur in obcaecati non
             sapiente, voluptates vitae optio maxime dolorem culpa autem totam,
             voluptatibus nesciunt, sequi illo.
-          </p>
+          </div>
         </div>
         <div></div>
         <div>
           <span class="text-5xl text-center font-bold text-white border-b-2"
             >Makna Lambang</span
           >
-          <p class="my-2 subpixel-antialiased text-lg text-white p-2">
+          <div
+            class="mt-5 w-72 lg:w-full text-justify subpixel-antialiased text-lg text-white"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
             doloribus laborum eum voluptate consequuntur in obcaecati non
             sapiente, voluptates vitae optio maxime dolorem culpa autem totam,
             voluptatibus nesciunt, sequi illo.
-          </p>
+          </div>
         </div>
       </div>
     </div>

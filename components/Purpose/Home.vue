@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-gray-200 p-12">
-    <div class="grid grid-rows-1">
-      <div class="grid grid-cols-2 p-6">
+  <div class="bg-red-00 p-2 lg:p-12">
+    <div class="grid grid-rows-2 lg:grid-rows-1">
+      <div class="grid grid-cols-1 lg:grid-cols-2 p-6">
         <div v-for="(item, i) in headers" :key="i" class="py-6">
           <span
             class="text-center text-5xl font-bold py-6 border-indigo-900 border-b-4"
           >
             {{ item.name }}
           </span>
-          <div class="my-12">
+          <div class="mt-12 my-0 lg:my-12">
             {{ item.text }}
           </div>
         </div>

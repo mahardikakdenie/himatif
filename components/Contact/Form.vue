@@ -29,9 +29,6 @@
                     rows="3"
                     class="max-w-lg shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                   />
-                  <p class="mt-2 text-sm text-gray-500">
-                    Write a few sentences about yourself.
-                  </p>
                 </div>
               </div>
               <div
@@ -50,9 +47,6 @@
                     rows="3"
                     class="max-w-lg shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                   />
-                  <p class="mt-2 text-sm text-gray-500">
-                    Write a few sentences about yourself.
-                  </p>
                 </div>
               </div>
               <div
@@ -71,9 +65,6 @@
                     rows="3"
                     class="max-w-lg shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                   />
-                  <p class="mt-2 text-sm text-gray-500">
-                    Write a few sentences about yourself.
-                  </p>
                 </div>
               </div>
             </div>
@@ -81,18 +72,12 @@
         </div>
 
         <div class="pt-5">
-          <div class="flex justify-end">
-            <button
-              type="button"
-              class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              Cancel
-            </button>
+          <div class="flex justify-center">
             <button
               type="submit"
-              class="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              class="ml-3 w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
-              Save
+              Send
             </button>
           </div>
         </div>

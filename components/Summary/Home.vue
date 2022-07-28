@@ -1,20 +1,17 @@
 <template>
-  <div class="p-12 bg-gray-100">
+  <div class="p-6 lg:p-12 bg-gray-100">
     <h2
       class="text-red-900 font-bold text-center text-5xl font-medium uppercase tracking-wide my-3"
     >
       Jumlah Anggota
     </h2>
-    <ul
-      role="list"
-      :class="`grid grid-cols-1 mt-6 gap-6 sm:grid-cols-2 lg:grid-cols-4 `"
-    >
+    <ul role="list" :class="`grid mt-6 gap-6 lg:grid-cols-4`">
       <li
         v-for="(person, i) in people"
         :key="i"
-        :class="`${
-          i === 8 ? 'col-span-4' : 'col-span-1'
-        }  bg-white rounded-lg shadow-lg shadow-cyan-500/50 p-4 border-solid border-slate-100 border-4 divide-y divide-gray-200 box-hover`"
+        :class="`col-span-4 w-full  ${
+          i === 8 ? 'lg:col-span-4' : 'lg:col-span-1'
+        } bg-white rounded-lg shadow-lg shadow-cyan-500/50 p-4 border-solid border-slate-100 border-4 divide-y divide-gray-200 box-hover`"
       >
         <div class="w-full flex items-center justify-between p-6 space-x-6">
           <div class="flex-1 truncate">
