@@ -15,7 +15,7 @@
             umumnya baik dalam bidang akademik maupun non-akedemik
           </div>
         </div>
-        <div class="flex justify-center p-32 items-center">
+        <div class="flex justify-center p-32 items-center item-img">
           <div
             class="border-2 position-relative p-28 rounded-full items-center bg-contain bg-no-repeat"
             style="background-image: url(himatif.png)"
@@ -35,6 +35,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <!--  -->
+    <div class="flex justify-center p-32 items-center item-img-lg">
+      <div
+        class="border-2 position-relative p-28 rounded-full items-center bg-contain bg-no-repeat"
+        style="background-image: url(himatif.png)"
+      ></div>
     </div>
     <!--  -->
     <div class="grid grid-row-1">
@@ -86,4 +93,15 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+@media screen and (max-width: 640px) {
+  .item-img {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 640px) {
+  .item-img-lg {
+    display: none !important;
+  }
+}
+</style>
