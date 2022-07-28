@@ -6,7 +6,7 @@
           <div>
             <div>
               <h3
-                class="text-5xl font-bold leading-6 font-medium text-gray-900"
+                class="text-5xl font-bold leading-10 font-medium text-gray-900"
               >
                 Wadah Aspirasi Masyarakat
               </h3>
