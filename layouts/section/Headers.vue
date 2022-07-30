@@ -20,7 +20,7 @@
       <div
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5"
       >
-        <a href="https://flowbite.com" class="flex items-center">
+        <a @click="$router.push('/')" class="flex items-center cursor-pointer">
           <img
             src="../../assets/img/himatif.png"
             class="mr-3 h-6 sm:h-9"

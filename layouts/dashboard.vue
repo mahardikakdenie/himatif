@@ -1,22 +1,34 @@
 <template>
-  <div>
+  <main class="flex">
     <!--  -->
-    <sidebar />
-    <main>
-      <div class="py-6">
-        <Nuxt />
-      </div>
-    </main>
+    <div class="w-full">
+      <sidebar />
+
+      <main>
+        <div class="max-w-90rem mx-modify px-4 sm:px-6 md:px-8">
+          <!-- Replace with your content -->
+          <div class="py-4">
+            <Nuxt />
+          </div>
+          <!-- /End replace -->
+        </div>
+      </main>
+    </div>
     <!--  -->
-  </div>
+  </main>
 </template>
 
 <script>
 export default {
   components: {
     sidebar: () => import("./section/sidebar.vue"),
+    mainView: () => import("./section/view.vue"),
   },
 };
 </script>
 
-<style></style>
+<style>
+.mx-modify {
+  margin: 0 1.75rem 0 19.75rem;
+}
+</style>

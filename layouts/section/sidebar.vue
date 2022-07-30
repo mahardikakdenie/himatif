@@ -69,7 +69,7 @@
         <div class="flex-1 px-4 flex justify-between">
           <div class="sm:px-6 pt-4">
             <h1 class="text-2xl font-semibold text-gray-700">
-              {{ strDislayText($route.name) }}
+              {{ strDisplayText($route.name, "-") }}
             </h1>
           </div>
           <div class="ml-4 flex items-center md:ml-6">
@@ -128,6 +128,7 @@
 </template>
 
 <script>
+import strDisplayText from "@/helpers/service/str";
 export default {
   data: () => ({
     sidebarOpen: false,
@@ -137,6 +138,7 @@ export default {
       { name: "Projects", current: false },
       { name: "Gallery", current: false },
       { name: "Contact", current: false },
+      { name: "Keluar" },
       //   { name: "Reports", current: false },
     ],
     userNavigation: [
@@ -146,27 +148,14 @@ export default {
     ],
   }),
   methods: {
+    strDisplayText,
     selectMenu(menu) {
       this.navigation = this.navigation.map((x) =>
         x.name === menu ? { ...x, current: true } : { ...x, current: false }
       );
-      this.$router.push(`/dashboard/${menu.toLowerCase()}`);
-      console.log();
-    },
-    strDislayText(text) {
-      let newText = [];
-      let newStr = "";
-      const newArray = text.split("-");
-      for (let key = 0; key < newArray.length; key++) {
-        newText[key] =
-          newArray[key].charAt(0).toUpperCase() + newArray[key].slice(1);
-      }
+      const text = menu.split(" ").join("-").toLowerCase();
 
-      for (let i = 0; i < newText.length; i++) {
-        newStr += newText[i] + " ";
-      }
-
-      return newStr;
+      this.$router.push(`/dashboard/${text}`);
     },
   },
 };

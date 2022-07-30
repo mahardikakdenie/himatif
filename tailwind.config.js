@@ -1,10 +1,13 @@
 module.exports = {
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
     
-      extend: {
-        screens: {
+    extend: {
+      maxWidth: {
+        "90rem": "90rem",
+      },
+      screens: {
           'sm': '640px',
           // => @media (min-width: 640px) { ... }
     
